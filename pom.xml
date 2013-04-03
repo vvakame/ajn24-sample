@@ -6,7 +6,7 @@
   <version>1.0-SNAPSHOT</version>
   <properties>
     <slim3.version>1.0.16</slim3.version>
-    <appengine.version>1.7.0</appengine.version>
+    <appengine.version>1.7.6</appengine.version>
     <generated.src>.apt_generated</generated.src>
     <generated.war>src/main/webapp</generated.war>
     <eclipse.lib>eclipse.lib</eclipse.lib>
@@ -113,7 +113,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>apt-maven-plugin</artifactId>
-          <version>1.0-alpha-3</version>
+          <version>1.0-alpha-5</version>
           <dependencies>
             <dependency>
               <groupId>org.slim3</groupId>
@@ -151,8 +151,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
           <encoding>utf-8</encoding>
-          <source>1.6</source>
-          <target>1.6</target>
+          <source>1.7</source>
+          <target>1.7</target>
         </configuration>
       </plugin>
       <plugin>
@@ -160,7 +160,7 @@
         <artifactId>apt-maven-plugin</artifactId>
         <configuration>
           <encoding>utf-8</encoding>
-          <outputDirectory>${generated.src}</outputDirectory>
+          <sourceOutputDirectory>${generated.src}</sourceOutputDirectory>
         </configuration>
         <executions>
           <execution>
