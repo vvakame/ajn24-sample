@@ -236,9 +236,9 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
+				<version>2.3</version>
 				<configuration>
-					<webXml>war/WEB-INF/web.xml</webXml>
-					<warSourceExcludes>.gwt-tmp/**</warSourceExcludes>
+					<archiveClasses>true</archiveClasses>
 				</configuration>
 			</plugin>
 			<plugin>
