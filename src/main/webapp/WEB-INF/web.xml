@@ -31,6 +31,22 @@
 	<filter>
 		<filter-name>memvache</filter-name>
 		<filter-class>net.vvakame.memvache.MemvacheFilter</filter-class>
+		<init-param>
+			<param-name>enableGetPutCacheStrategy</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>
+			<param-name>enableQueryKeysOnlyStrategy</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>
+			<param-name>enableAggressiveQueryCacheStrategy</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<init-param>
+			<param-name>enableDebugMode</param-name>
+			<param-value>true</param-value>
+		</init-param>
 	</filter>
 	<filter-mapping>
 		<filter-name>memvache</filter-name>

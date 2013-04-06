@@ -7,7 +7,7 @@ import org.junit.Before;
 import org.slim3.tester.AppEngineTestCase;
 
 public class MemvacheAppEngineTestCase extends AppEngineTestCase {
-	MemvacheDelegate delegate;
+	protected MemvacheDelegate delegate;
 
 	@Before
 	@Override
