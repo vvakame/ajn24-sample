@@ -1,4 +1,4 @@
-package net.vvakame.ajn24sample.service;
+package net.vvakame.ajn24sample;
 
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.*;

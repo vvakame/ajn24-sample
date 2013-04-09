@@ -1,4 +1,4 @@
-package net.vvakame.ajn24sample.service;
+package net.vvakame.ajn24sample;
 
 import org.slim3.datastore.Datastore;
 

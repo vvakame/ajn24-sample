@@ -1,4 +1,4 @@
-package net.vvakame.ajn24sample.service;
+package net.vvakame.ajn24sample;
 
 import java.util.List;
 import java.util.concurrent.Future;
